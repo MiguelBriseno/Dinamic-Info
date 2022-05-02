@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --red: #bd2423;
+    --font: 'Roboto';
+}
+/* ESTILOS PARA CABECERA */
+.header{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    margin-bottom: 2rem;
+}
+.header .header__info{
+    width: 70%;
+    height: auto;
+    padding: 2rem;
+}
+.header .header__info .info__title{
+    font-size: 6rem;
+    font-family: var(--font);
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.header .header__info .info__subtitle{
+    width: 100%;
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: var(--font);
+    color: white;
+    background-color: var(--red);
+    margin-bottom: 1rem;
+}
+.header .header__info .info__container{
+    width: 100%;
+    height: auto;
+}
+.header .header__info .info__container .container__title{
+    font-size: 3.5rem;
+    font-family: var(--font);
+    margin-bottom: 1rem;
+}
+.header .header__info .info__container .container__parrafo{
+    font-size: 2.5rem;
+    font-family: var(--font);
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.header .header__info .info__container .container__parrafo a{
+    text-decoration: none;
+}
+.header .header__logos{
+    width: 30%;
+    height: auto;
+    background-color: var(--red);
+    border-left: 1.5rem solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.header .header__logos .logo{
+    width: 25rem;
+    height: 10rem;
+}
+/* ESTILOS PARA CONTENEDOR PRINCIPAL */
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main .main__principal{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .main__principal .principal__img{
+    width: 40rem;
+    height: 20rem;
+}
+.main .main__socials{
+    width: 100%;
+    height: auto;
+}
+.main .main__socials .socials__title{
+    font-family: var(--font);
+    font-weight: 200;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+}
+.main .main__socials .socials__container{
+    width: 100%;
+    height: 16rem;
+    background-color: #979393;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.main .main__socials .socials__container .container__img{
+    width: 110px;
+    height: 110px;
+}
+/* ESTILOS PARA FOOTER */
+.footer{
+    width: 100%;
+    height: 35rem;
+}
+.footer .footer__title{
+    width: 100%;
+    height: 15rem;
+}
+.footer .footer__title .title__h3{
+    text-align: center;
+    font-size: 4rem;
+    font-family: var(--font);
+}
+.footer .footer__rounded{
+    width: 100%;
+    height: 20rem;
+}
+.footer .footer__rounded .rounded__oval{
+    width: 80%;
+    height: 20rem;
+    background-color: var(--red);
+    margin: 0 auto;
+    border-radius: 100% 100% 0 0;
+}
+.footer .footer__rounded .rounded__oval .rounded__title{
+    text-align: center;
+    color: white;
+    font-family: var(--font);
+    font-size: 3rem;
+    padding-top: 2rem;
+}
